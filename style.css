@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+.main-div{
+	background: linear-gradient(45deg,rgb(92, 37, 195),rgb(40, 0, 72));
+	padding-bottom: 200px;
+	/* min-height: 100vh; */
+	/* min-width: 100vw; */
+	
+}
+.sub-main-div{
+	margin: 0px 60px;
+	padding-top: 10px;
+	padding: 10px 30px 50px 30px;
+	border-radius: 25px;
+	/* height: 400px; */
+	background: white;
+	position: relative;
+	top: 60px;
+	min-height: calc(100vh - 120px);
+}
+
+#mobile-photo{
+	/* height: 50%;
+	width: 100%; */
+	float: right;
+	border-radius: 25px;
+	height: 150%;
+}
+#nav-bar{
+	text-align: right;
+	/* border-radius: 25px; */
+}
+#nav-bar>li{
+	text-align: center;
+	display: inline-block;
+	padding: 0 10px;
+	font-size: larger;
+	margin: 5px 0px;
+}
+#nav-bar>li>a{
+	text-decoration: none;
+	color: rgb(76, 1, 119);
+	font-size: smaller;
+}
+.body_image{
+	text-align: center;
+}
+#bank_img{
+	width: calc(90vw - 100px);
+	
+}
+#heading-spark{
+	font-size: 45px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media only screen and (max-width:500px){
+	#heading-spark{
+		font-size: 18px;
+	}
+	.sub-main-div{
+		margin: -20px 25px;
+		padding: 5px;
+	}		
+	
+}
+@media only screen and (max-width:900px) and(min-width:501px){
+	#heading-spark{
+		font-size: 35px;
+	}
+	
+}
+
+@media only screen and (min-width:992px){
+	#nav-bar{
+		float: right;
+		position: absolute; 
+		right: 20px;
+	}
+}
+
+
+
+#footer{
+	/* height: 100px; */
+	background: #172337;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
