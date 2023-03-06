@@ -5,7 +5,7 @@ body {
 }
 .main-div{
 	background: linear-gradient(45deg,rgb(92, 37, 195),rgb(40, 0, 72));
-	padding-bottom: 200px;
+	padding-bottom: 130px;
 	/* min-height: 100vh; */
 	/* min-width: 100vw; */
 	
@@ -20,6 +20,7 @@ body {
 	position: relative;
 	top: 60px;
 	min-height: calc(100vh - 120px);
+	/* background-color: #e9e7e7; */
 }
 
 #mobile-photo{
@@ -56,30 +57,6 @@ body {
 	font-size: 45px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-@media only screen and (max-width:500px){
-	#heading-spark{
-		font-size: 18px;
-	}
-	.sub-main-div{
-		margin: -20px 25px;
-		padding: 5px;
-	}		
-	
-}
-@media only screen and (max-width:900px) and(min-width:501px){
-	#heading-spark{
-		font-size: 35px;
-	}
-	
-}
-
-@media only screen and (min-width:992px){
-	#nav-bar{
-		float: right;
-		position: absolute; 
-		right: 20px;
-	}
-}
 
 
 
@@ -90,4 +67,81 @@ body {
 	padding: 20px;
 	text-align: center;
 	width: 100%;
+}
+.social-icon{
+	margin: 0 10px 5px 10px;
+	padding-bottom: 3px;
+	transform: scale(1.4);
+}
+.social-icon:hover{
+	transform: scale(1.5);
+	border-bottom: 2px solid rgb(248, 109, 253);
+	color: rgb(248, 109, 253);
+}
+#services{
+	text-align: center;
+}
+
+.service-item{
+	display: inline-block;
+	text-align: center;
+	margin: 30px 50px;
+	padding: 5px 20px 10px 20px;
+	border: 3px solid rgb(92, 2, 125);
+	box-shadow: 0px 0px 10px rgb(228, 167, 247);
+	border-radius: 20px 0px;
+	box-shadow: 5px solid salmon;
+	width: max-content;
+}
+.service-item:hover{
+	transform: scale(1.02);
+	box-shadow: 0px 0px 10px rgb(255, 131, 68);
+}
+.service-item > img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+.btn1{
+	background: linear-gradient(45deg,rgb(92, 37, 195),rgb(40, 0, 72));
+	color: white;
+	border-radius: 7px;
+	padding: 1px 8px;
+}
+.btn1:hover{
+	background: linear-gradient(45deg,rgb(40, 0, 72),rgb(92, 37, 195));
+}
+.service-item>p{
+	color: #00000063;
+}
+@media only screen and (max-width:500px){
+	#heading-spark{
+		font-size: 18px;
+	}
+	.sub-main-div{
+		margin: -20px 25px;
+		padding: 5px;
+	}		
+	.service-item > img{
+		height: 100px;
+	}
+	
+}
+@media only screen and  (min-width:501px){
+	#heading-spark{
+		font-size: 35px;
+	}
+	
+}
+
+
+@media only screen and (min-width:992px){
+	#heading-spark{
+		font-size: 65px;
+	}
+	#nav-bar{
+		float: right;
+		position: absolute; 
+		right: 20px;
+	}
 }
