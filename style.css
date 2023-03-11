@@ -41,6 +41,14 @@ body {
 	font-size: larger;
 	margin: 5px 0px;
 }
+#nav-bar>li:hover:after{
+	content: '';
+	display: block;
+	border-bottom: 2px solid rgba(208, 187, 218, 0.619);
+	margin-left: 35%;
+	margin-right: 35%;
+	
+}
 #nav-bar>li>a{
 	text-decoration: none;
 	color: rgb(76, 1, 119);
@@ -56,6 +64,11 @@ body {
 #heading-spark{
 	font-size: 45px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	border-right: 3px solid rgb(76, 1, 119);
+	width:max-content;
+	margin: auto;
+	padding-right: 3px;
+	color: rgb(76, 1, 119);
 }
 
 
@@ -123,7 +136,8 @@ body {
 		padding: 5px;
 	}		
 	.service-item > img{
-		height: 100px;
+		/* height: 120px;
+		width: 120px; */
 	}
 	
 }
