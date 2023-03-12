@@ -37,13 +37,13 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="customers.html">View All Customers</a>
+                                <a class="nav-link" href="users.php">View All Customers</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">Transfer Money</a>
+                                <a class="nav-link" href="transfer.php">Transfer Money</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Transaction History</a>
+                                <a class="nav-link" href="transaction.php">Transaction History</a>
                             </li>
                         </ul>
                     </div>
@@ -60,19 +60,19 @@
                     <img src="customer.png" alt="">
                     <h3>Customers</h3>
                     <p>List of All Customers</p>
-                    <a href=""><button class="btn1" href="customers.html">View Customers</button></a>
+                    <a href="users.php"><button class="btn1" href="users.php">View Customers</button></a>
                 </div>
                 <div class="service-item" style="">
                     <img src="money_transfer.jpg" alt="">
                     <h3>Money Transfer</h3>
                     <p>Transfers money </p>
-                    <a href=""><button class="btn1">Transfer Money</button></a>
+                    <a href="transfer.php"><button class="btn1">Transfer Money</button></a>
                 </div>
                 <div class="service-item" style="">
                     <img src="transaction.png" alt="">
                     <h3>Transaction History</h3>
                     <p>List of recent transactions</p>
-                    <a href=""><button class="btn1" href="customers.html">View History</button></a>
+                    <a href=""><button class="btn1" href="transaction.php">View History</button></a>
                 </div>
             </div>
             
